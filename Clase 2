@@ -1,0 +1,24 @@
+
+# Datos obtenidos mediante la observación de los objetos de la caja
+
+datos_caja = {
+    
+    "objeto_id": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10],
+    "textura": [ "suave", "liso", "esponjoso", "liso", "suave", "liso", "rugoso", "rugoso", "liso", "gomoso"],
+    "tamano_cm": [ 14, 12, 20, 6, 15, 18, 10, 15, 12, 30 ],
+    "peso_estimado_g": [ 30, 80, 100, 90, 120, 150, 60, 180, 70, 90 ],
+    "giratorio": [False, False, True, True, False, False, False, True, False, False],
+    "material": ["plastico","plastico","goma","plastico","tela","plastico","plastico","plastico","plastico","goma" ]}
+
+# Transformar el diccionario en DataFrame
+df_python = pd.DataFrame(datos_caja)
+
+df_python
+
+# Convertir variables categóricas
+
+df_python["textura"] = df_python["textura"].astype("category")
+
+df_python["material"] = df_python["material"].astype("category")
+
+

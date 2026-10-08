@@ -1,0 +1,11 @@
+id;frecuencia;prod_cafe;prod_comida;prod_frias;prod_otros;atencion;pago_efectivo;pago_tarjeta;pago_transferencia;estudiante;edad;mejora
+1;1 a 3 veces;1;0;1;0;4;1;0;0;TRUE;20;Más variedad
+2;Más de 8 veces;1;1;0;0;5;0;1;0;TRUE;22;Nada
+3;Nunca;NA;NA;NA;NA;NA;NA;NA;NA;FALSE;35;Precios más bajos
+4;4 a 8 veces;0;1;1;0;3;1;1;0;TRUE;19;Mejor atención
+5;1 a 3 veces;1;0;0;1;;;;;;;
+6;4 a 8 veces;1;1;1;0;5;1;0;1;TRUE;21;Más promociones
+7;Nunca;NA;NA;NA;NA;NA;NA;NA;NA;TRUE;18;Más opciones saludables
+8;Más de 8 veces;1;1;1;1;3;0;1;1;TRUE;23;Mejorar los precios
+9;1 a 3 veces;0;1;0;0;2;1;0;0;FALSE;31;Mejor atención
+10;4 a 8 veces;1;0;1;0;;;;;;;
