@@ -1,0 +1,11 @@
+Clase 10 — bitácora reconstruida
+
+Archivo: bitacora_clase10.R
+
+IMPORTANTE: esta es una práctica personal resuelta basada en los contenidos de la clase 10, no una lista oficial de tareas entregables.
+
+Para que funcione, ejecutá el script desde la raíz del repositorio Introduccion-clases-git (porque lee clases/clase10/transito_aire_junio2024.csv).
+
+Necesitás R y los paquetes dplyr, readr, lubridate y ggplot2.
+
+Los siete ejercicios del archivo ejercicios_transito_aire.R están en clases/clase12 dentro del ZIP recibido, por lo que no los incluimos como tarea de clase 10.
